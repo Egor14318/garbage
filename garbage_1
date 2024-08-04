@@ -1,0 +1,13 @@
+#include <iostream>
+int main() {
+    setlocale(LC_ALL, "rus");
+    int n = 0;
+    int factorial = 1;
+    std::cin >> n;
+
+    for (int i = 1; i <= n; ++i) {
+        factorial *= i;
+    }
+    std::cout << "Факториал " << n << " равен " << factorial << std::endl;
+    return 0;
+}
