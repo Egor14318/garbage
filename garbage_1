@@ -9,5 +9,6 @@ int main() {
         factorial *= i;
     }
     std::cout << "Факториал " << n << " равен " << factorial << std::endl;
+    std::cout<<"всем привет"<<std::endl;    
     return 0;
 }
